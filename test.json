@@ -1,0 +1,2380 @@
+{
+    "version": "4.29.3",
+    "system": {
+        "manufacturer": "Micro-Star International Co., Ltd",
+        "model": "MS-7A34",
+        "version": "2.0",
+        "serial": "To be filled by O.E.M.",
+        "uuid": "00000000-0000-0000-0000-309C234B7CAD",
+        "sku": "To be filled by O.E.M."
+    },
+    "bios": {
+        "vendor": "American Megatrends Inc.",
+        "version": "ALASKA - 1072009",
+        "releaseDate": "2017-09-20",
+        "revision": ""
+    },
+    "baseboard": {
+        "manufacturer": "Micro-Star International Co., Ltd",
+        "model": "B350 PC MATE (MS-7A34)",
+        "version": "2.0",
+        "serial": "H916742624",
+        "assetTag": ""
+    },
+    "chassis": {
+        "manufacturer": "Micro-Star International Co., Ltd",
+        "model": "",
+        "type": "Desktop",
+        "version": "2.0",
+        "serial": "To be filled by O.E.M.",
+        "assetTag": "",
+        "sku": ""
+    },
+    "os": {
+        "platform": "win32",
+        "distro": "Microsoft Windows 10 Pro",
+        "release": "10.0.18363",
+        "codename": "",
+        "kernel": "10.0.18363",
+        "arch": "x64",
+        "hostname": "Tobias3107",
+        "codepage": " 850",
+        "logofile": "windows",
+        "serial": "00330-80000-00000-AA023",
+        "build": "18363",
+        "servicepack": "0.0",
+        "uefi": false
+    },
+    "uuid": {
+        "os": "c1cf9272-d531-456e-9f9c-f13aa8dbf004"
+    },
+    "versions": {
+        "kernel": "10.0.18363",
+        "openssl": "1.1.1g",
+        "systemOpenssl": "",
+        "systemOpensslLib": "",
+        "node": "12.18.4",
+        "v8": "7.8.279.23-node.39",
+        "npm": "6.14.6",
+        "yarn": "",
+        "pm2": "",
+        "gulp": "",
+        "grunt": "",
+        "git": "2.25.1.windows.1",
+        "tsc": "",
+        "mysql": "",
+        "redis": "",
+        "mongodb": "",
+        "apache": "",
+        "nginx": "",
+        "php": "7.3.7",
+        "docker": "19.03.8",
+        "postfix": "",
+        "postgresql": "",
+        "perl": "",
+        "python": "",
+        "python3": "",
+        "pip": "",
+        "pip3": "",
+        "java": "1.8.0_241",
+        "gcc": "",
+        "virtualbox": "",
+        "dotnet": "3.1.403"
+    },
+    "cpu": {
+        "manufacturer": "AMD",
+        "brand": "Ryzen 5 1600 Six-Core Processor",
+        "vendor": "AuthenticAMD",
+        "family": "23",
+        "model": "1",
+        "stepping": "1",
+        "revision": "257",
+        "voltage": "",
+        "speed": "3.2",
+        "speedmin": "",
+        "speedmax": "3.20",
+        "governor": "",
+        "cores": 12,
+        "physicalCores": 6,
+        "processors": 1,
+        "socket": "AM4",
+        "cache": {
+            "l1d": 0,
+            "l1i": 0,
+            "l2": 3145728,
+            "l3": 16777216
+        },
+        "flags": "de pse msr sep mtrr mca cmov psn clfsh ds mmx fxsr sse sse2 ss htt tm ia64 pbe"
+    },
+    "graphics": {
+        "controllers": [
+            {
+                "vendor": "Advanced Micro Devices, Inc.",
+                "model": "AMD Radeon R9 200 Series",
+                "bus": "PCI",
+                "vram": 4095,
+                "vramDynamic": true
+            }
+        ],
+        "displays": [
+            {
+                "vendor": "SAM",
+                "model": "C4390",
+                "deviceName": "\\\\.\\DISPLAY1",
+                "main": false,
+                "builtin": false,
+                "connection": "HDMI",
+                "resolutionx": 1920,
+                "resolutiony": 1080,
+                "sizex": 52,
+                "sizey": 29,
+                "pixeldepth": "32",
+                "currentResX": 1920,
+                "currentResY": 1080,
+                "positionX": 1920,
+                "positionY": 0
+            },
+            {
+                "vendor": "SAM",
+                "model": "SycMastr",
+                "deviceName": "\\\\.\\DISPLAY2",
+                "main": false,
+                "builtin": false,
+                "connection": "DVI",
+                "resolutionx": 1680,
+                "resolutiony": 1050,
+                "sizex": 47,
+                "sizey": 30,
+                "pixeldepth": "32",
+                "currentResX": 1680,
+                "currentResY": 1050,
+                "positionX": -1680,
+                "positionY": 27
+            },
+            {
+                "vendor": "ACR",
+                "model": "GN46HL",
+                "deviceName": "\\\\.\\DISPLAY3",
+                "main": true,
+                "builtin": false,
+                "connection": "DVI",
+                "resolutionx": 1920,
+                "resolutiony": 1080,
+                "sizex": 53,
+                "sizey": 30,
+                "pixeldepth": "32",
+                "currentResX": 1920,
+                "currentResY": 1080,
+                "positionX": 0,
+                "positionY": 0
+            }
+        ]
+    },
+    "net": [
+        {
+            "iface": "Ethernet 4",
+            "ifaceName": "Sophos SSL VPN Adapter",
+            "ip4": "10.107.224.65",
+            "ip4subnet": "255.255.248.0",
+            "ip6": "fe80::dde3:fad2:c71d:ceff",
+            "ip6subnet": "ffff:ffff:ffff:ffff::",
+            "mac": "00:ff:87:4d:f7:f6",
+            "internal": false,
+            "virtual": false,
+            "operstate": "up",
+            "type": "wired",
+            "duplex": "",
+            "mtu": "",
+            "speed": 100,
+            "dhcp": "true",
+            "dnsSuffix": "kopla.local",
+            "ieee8021xAuth": "Unknown",
+            "ieee8021xState": "Unknown",
+            "carrierChanges": 0
+        },
+        {
+            "iface": "vEthernet (Default Switch)",
+            "ifaceName": "Hyper-V Virtual Ethernet Adapter",
+            "ip4": "172.17.64.1",
+            "ip4subnet": "255.255.255.240",
+            "ip6": "fe80::ad12:b28a:aa9c:68e3",
+            "ip6subnet": "ffff:ffff:ffff:ffff::",
+            "mac": "00:15:5d:1a:05:3d",
+            "internal": false,
+            "virtual": true,
+            "operstate": "up",
+            "type": "wired",
+            "duplex": "",
+            "mtu": "",
+            "speed": 10000,
+            "dhcp": "false",
+            "dnsSuffix": "",
+            "ieee8021xAuth": "Unknown",
+            "ieee8021xState": "Unknown",
+            "carrierChanges": 0
+        },
+        {
+            "iface": "Ethernet",
+            "ifaceName": "Realtek PCIe GbE Family Controller",
+            "ip4": "192.168.2.13",
+            "ip4subnet": "255.255.255.0",
+            "ip6": "2003:e1:709:6cb0:d07f:6214:3970:de8",
+            "ip6subnet": "ffff:ffff:ffff:ffff::",
+            "mac": "30:9c:23:4b:7c:ad",
+            "internal": false,
+            "virtual": false,
+            "operstate": "up",
+            "type": "wired",
+            "duplex": "",
+            "mtu": "",
+            "speed": 1000,
+            "dhcp": "false",
+            "dnsSuffix": "",
+            "ieee8021xAuth": "Unknown",
+            "ieee8021xState": "Unknown",
+            "carrierChanges": 0
+        },
+        {
+            "iface": "Loopback Pseudo-Interface 1",
+            "ifaceName": "Loopback Pseudo-Interface 1",
+            "ip4": "127.0.0.1",
+            "ip4subnet": "255.0.0.0",
+            "ip6": "::1",
+            "ip6subnet": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "mac": "00:00:00:00:00:00",
+            "internal": true,
+            "virtual": false,
+            "operstate": "down",
+            "type": "",
+            "duplex": "",
+            "mtu": "",
+            "speed": -1,
+            "dhcp": false,
+            "dnsSuffix": "",
+            "ieee8021xAuth": "Unknown",
+            "ieee8021xState": "Unknown",
+            "carrierChanges": 0
+        },
+        {
+            "iface": "VirtualBox Host-Only Ethernet Adapter",
+            "ifaceName": "TAP-ProtonVPN Windows Adapter V9",
+            "ip4": "",
+            "ip4subnet": "",
+            "ip6": "",
+            "ip6subnet": "",
+            "mac": "",
+            "virtual": false,
+            "operstate": "down",
+            "type": "wired",
+            "duplex": "",
+            "mtu": "",
+            "speed": -1,
+            "dhcp": "true",
+            "dnsSuffix": "",
+            "ieee8021xAuth": "Unknown",
+            "ieee8021xState": "Unknown",
+            "carrierChanges": 0
+        }
+    ],
+    "memLayout": [
+        {
+            "size": 17179869184,
+            "bank": "CHANNEL A",
+            "type": "Unknown",
+            "clockSpeed": 1600,
+            "formFactor": "DIMM",
+            "manufacturer": "Unknown",
+            "partNum": "F4-3200C16-16GTZR",
+            "serialNum": "00000000",
+            "voltageConfigured": 1.2,
+            "voltageMin": 1.2,
+            "voltageMax": 1.2
+        },
+        {
+            "size": 17179869184,
+            "bank": "CHANNEL B",
+            "type": "Unknown",
+            "clockSpeed": 1600,
+            "formFactor": "DIMM",
+            "manufacturer": "Unknown",
+            "partNum": "F4-3200C16-16GTZR",
+            "serialNum": "00000000",
+            "voltageConfigured": 1.2,
+            "voltageMin": 1.2,
+            "voltageMax": 1.2
+        }
+    ],
+    "diskLayout": [
+        {
+            "device": "",
+            "type": "HD",
+            "name": "TOSHIBA DT01ACA100",
+            "vendor": "(Standardlaufwerke)",
+            "size": 1000202273280,
+            "bytesPerSector": 512,
+            "totalCylinders": 121601,
+            "totalHeads": 255,
+            "totalSectors": 1953520065,
+            "totalTracks": 31008255,
+            "tracksPerCylinder": 255,
+            "sectorsPerTrack": 63,
+            "firmwareRevision": "MS2OA750",
+            "serialNum": "28JMS3XNS",
+            "interfaceType": "SATA",
+            "smartStatus": "Ok"
+        },
+        {
+            "device": "",
+            "type": "HD",
+            "name": "WDC WD10EZEX-00BN5A0",
+            "vendor": "(Standardlaufwerke)",
+            "size": 1000202273280,
+            "bytesPerSector": 512,
+            "totalCylinders": 121601,
+            "totalHeads": 255,
+            "totalSectors": 1953520065,
+            "totalTracks": 31008255,
+            "tracksPerCylinder": 255,
+            "sectorsPerTrack": 63,
+            "firmwareRevision": "01.01A01",
+            "serialNum": "WD-WMC3F0J7VEMD",
+            "interfaceType": "SATA",
+            "smartStatus": "Ok"
+        },
+        {
+            "device": "",
+            "type": "SSD",
+            "name": "SanDisk SDSSDA120G",
+            "vendor": "(Standardlaufwerke)",
+            "size": 120031511040,
+            "bytesPerSector": 512,
+            "totalCylinders": 14593,
+            "totalHeads": 255,
+            "totalSectors": 234436545,
+            "totalTracks": 3721215,
+            "tracksPerCylinder": 255,
+            "sectorsPerTrack": 63,
+            "firmwareRevision": "Z32080RL",
+            "serialNum": "163905479315",
+            "interfaceType": "SATA",
+            "smartStatus": "Ok"
+        },
+        {
+            "device": "",
+            "type": "SSD",
+            "name": "Samsung SSD 850 EVO 1TB",
+            "vendor": "(Standardlaufwerke)",
+            "size": 1000202273280,
+            "bytesPerSector": 512,
+            "totalCylinders": 121601,
+            "totalHeads": 255,
+            "totalSectors": 1953520065,
+            "totalTracks": 31008255,
+            "tracksPerCylinder": 255,
+            "sectorsPerTrack": 63,
+            "firmwareRevision": "EMT01B6Q",
+            "serialNum": "S21DNSAG103685X",
+            "interfaceType": "SATA",
+            "smartStatus": "Ok"
+        }
+    ],
+    "time": {
+        "current": 1604929589884,
+        "uptime": 90938,
+        "timezone": "GMT+0100",
+        "timezoneName": "GMT+01:00"
+    },
+    "node": "12.18.4",
+    "v8": "7.8.279.23-node.39",
+    "cpuCurrentspeed": {
+        "min": 3.2,
+        "max": 3.2,
+        "avg": 3.2,
+        "cores": [
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.2
+        ]
+    },
+    "currentLoad": {
+        "avgload": 0,
+        "currentload": 6.022673066291627,
+        "currentload_user": 4.495118004057275,
+        "currentload_system": 1.435000968879568,
+        "currentload_nice": 0,
+        "currentload_idle": 93.97732693370837,
+        "currentload_irq": 0.09255409335478403,
+        "raw_currentload": 42952156,
+        "raw_currentload_user": 32058026,
+        "raw_currentload_system": 10234058,
+        "raw_currentload_nice": 0,
+        "raw_currentload_idle": 670222136,
+        "raw_currentload_irq": 660072,
+        "cpus": [
+            {
+                "load": 8.55370836702587,
+                "load_user": 5.812543522525475,
+                "load_system": 2.3469984494401763,
+                "load_nice": 0,
+                "load_idle": 91.44629163297412,
+                "load_irq": 0.3941663950602177,
+                "raw_load": 5098983,
+                "raw_load_user": 3464937,
+                "raw_load_system": 1399078,
+                "raw_load_nice": 0,
+                "raw_load_idle": 54512390,
+                "raw_load_irq": 234968
+            },
+            {
+                "load": 5.312339725113755,
+                "load_user": 4.590619555367835,
+                "load_system": 0.6850505552784042,
+                "load_nice": 0,
+                "load_idle": 94.68766027488624,
+                "load_irq": 0.03666961446751565,
+                "raw_load": 3155421,
+                "raw_load_user": 2726734,
+                "raw_load_system": 406906,
+                "raw_load_nice": 0,
+                "raw_load_idle": 56242531,
+                "raw_load_irq": 21781
+            },
+            {
+                "load": 9.040103414405092,
+                "load_user": 6.894231953019135,
+                "load_system": 2.0916922161019835,
+                "load_nice": 0,
+                "load_idle": 90.95989658559492,
+                "load_irq": 0.05417924528397166,
+                "raw_load": 5370577,
+                "raw_load_user": 4095750,
+                "raw_load_system": 1242640,
+                "raw_load_nice": 0,
+                "raw_load_idle": 54037781,
+                "raw_load_irq": 32187
+            },
+            {
+                "load": 6.542768444744524,
+                "load_user": 5.310291536240575,
+                "load_system": 1.196359302183535,
+                "load_nice": 0,
+                "load_idle": 93.45723155525548,
+                "load_irq": 0.036117606320414435,
+                "raw_load": 3886249,
+                "raw_load_user": 3154187,
+                "raw_load_system": 710609,
+                "raw_load_nice": 0,
+                "raw_load_idle": 55511375,
+                "raw_load_irq": 21453
+            },
+            {
+                "load": 6.577035793650345,
+                "load_user": 4.065390935764866,
+                "load_system": 2.434627845178252,
+                "load_nice": 0,
+                "load_idle": 93.42296420634966,
+                "load_irq": 0.07701701270722651,
+                "raw_load": 3908202,
+                "raw_load_user": 2415734,
+                "raw_load_system": 1446703,
+                "raw_load_nice": 0,
+                "raw_load_idle": 55513734,
+                "raw_load_irq": 45765
+            },
+            {
+                "load": 2.6458241124817232,
+                "load_user": 1.6934688892148713,
+                "load_system": 0.8951007306238821,
+                "load_nice": 0,
+                "load_idle": 97.35417588751828,
+                "load_irq": 0.05725449264297023,
+                "raw_load": 1571889,
+                "raw_load_user": 1006093,
+                "raw_load_system": 531781,
+                "raw_load_nice": 0,
+                "raw_load_idle": 57838296,
+                "raw_load_irq": 34015
+            },
+            {
+                "load": 7.064591560734039,
+                "load_user": 5.527089878361045,
+                "load_system": 1.4678421418206646,
+                "load_nice": 0,
+                "load_idle": 92.93540843926597,
+                "load_irq": 0.0696595405523293,
+                "raw_load": 4197608,
+                "raw_load_user": 3284062,
+                "raw_load_system": 872156,
+                "raw_load_nice": 0,
+                "raw_load_idle": 55219953,
+                "raw_load_irq": 41390
+            },
+            {
+                "load": 3.0008568240715388,
+                "load_user": 2.2452062588349255,
+                "load_system": 0.6906953295312256,
+                "load_nice": 0,
+                "load_idle": 96.99914317592845,
+                "load_irq": 0.06495523570538797,
+                "raw_load": 1782952,
+                "raw_load_user": 1333984,
+                "raw_load_system": 410375,
+                "raw_load_nice": 0,
+                "raw_load_idle": 57631812,
+                "raw_load_irq": 38593
+            },
+            {
+                "load": 8.20198624984213,
+                "load_user": 6.451985892242779,
+                "load_system": 1.6694353270633127,
+                "load_nice": 0,
+                "load_idle": 91.79801375015786,
+                "load_irq": 0.08056503053603975,
+                "raw_load": 4873952,
+                "raw_load_user": 3834031,
+                "raw_load_system": 992046,
+                "raw_load_nice": 0,
+                "raw_load_idle": 54550093,
+                "raw_load_irq": 47875
+            },
+            {
+                "load": 4.202792879179465,
+                "load_user": 2.9318905874664822,
+                "load_system": 1.21356873341279,
+                "load_nice": 0,
+                "load_idle": 95.79720712082053,
+                "load_irq": 0.057333558300193134,
+                "raw_load": 2496889,
+                "raw_load_user": 1741843,
+                "raw_load_system": 720984,
+                "raw_load_nice": 0,
+                "raw_load_idle": 56913343,
+                "raw_load_irq": 34062
+            },
+            {
+                "load": 6.209656911987422,
+                "load_user": 5.014723149752701,
+                "load_system": 1.1210697806783334,
+                "load_nice": 0,
+                "load_idle": 93.79034308801258,
+                "load_irq": 0.07386398155638764,
+                "raw_load": 3689780,
+                "raw_load_user": 2979750,
+                "raw_load_system": 666140,
+                "raw_load_nice": 0,
+                "raw_load_idle": 55730250,
+                "raw_load_irq": 43890
+            },
+            {
+                "load": 4.911915552415745,
+                "load_user": 3.399921117400753,
+                "load_system": 1.404166793965407,
+                "load_nice": 0,
+                "load_idle": 95.08808444758425,
+                "load_irq": 0.10782764104958406,
+                "raw_load": 2919654,
+                "raw_load_user": 2020921,
+                "raw_load_system": 834640,
+                "raw_load_nice": 0,
+                "raw_load_idle": 56520578,
+                "raw_load_irq": 64093
+            }
+        ]
+    },
+    "networkConnections": [
+        {
+            "protocol": "proto",
+            "localaddress": "Lokale",
+            "localport": "",
+            "peeraddress": "Adresse",
+            "peerport": "",
+            "state": "Remoteadresse",
+            "pid": "Status",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "135",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "984",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "445",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "3000",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "20852",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "5040",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "7428",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "5357",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "7070",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3792",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "27036",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "12208",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49414",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49483",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49487",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49664",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "900",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49665",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "816",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49666",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "1496",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49667",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "1740",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49669",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "2684",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49670",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3532",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "49700",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "892",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "57621",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "0.0.0.0",
+            "localport": "65045",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "10.107.224.65",
+            "localport": "139",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "10.107.224.65",
+            "localport": "49253",
+            "peeraddress": "192.168.1.83",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "172",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "10.107.224.65",
+            "localport": "58888",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "10.107.224.65",
+            "localport": "60901",
+            "peeraddress": "192.168.1.83",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "172",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "3000",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49491",
+            "state": "ESTABLISHED",
+            "pid": "20852",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "3213",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4264",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "5939",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4336",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "24801",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4160",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "25340",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "20252",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "25340",
+            "peeraddress": "127.0.0.1",
+            "peerport": "59753",
+            "state": "ESTABLISHED",
+            "pid": "20252",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "27017",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4292",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "27060",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "12208",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49414",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49415",
+            "state": "ESTABLISHED",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49415",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49414",
+            "state": "ESTABLISHED",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49420",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49421",
+            "state": "TIME_WAIT",
+            "pid": "0",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49424",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49425",
+            "state": "TIME_WAIT",
+            "pid": "0",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49465",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49466",
+            "state": "TIME_WAIT",
+            "pid": "0",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49469",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49470",
+            "state": "TIME_WAIT",
+            "pid": "0",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49481",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "18316",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49481",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49482",
+            "state": "ESTABLISHED",
+            "pid": "18316",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49482",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49481",
+            "state": "ESTABLISHED",
+            "pid": "13960",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49483",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49484",
+            "state": "ESTABLISHED",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49484",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49483",
+            "state": "ESTABLISHED",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49485",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "20852",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49485",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49486",
+            "state": "ESTABLISHED",
+            "pid": "20852",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49486",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49485",
+            "state": "ESTABLISHED",
+            "pid": "1960",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49487",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49488",
+            "state": "ESTABLISHED",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49488",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49487",
+            "state": "ESTABLISHED",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49491",
+            "peeraddress": "127.0.0.1",
+            "peerport": "3000",
+            "state": "ESTABLISHED",
+            "pid": "172",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "49494",
+            "peeraddress": "127.0.0.1",
+            "peerport": "49495",
+            "state": "TIME_WAIT",
+            "pid": "0",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "127.0.0.1",
+            "localport": "59753",
+            "peeraddress": "127.0.0.1",
+            "peerport": "25340",
+            "state": "ESTABLISHED",
+            "pid": "13444",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "172.17.64.1",
+            "localport": "139",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "172.17.64.1",
+            "localport": "58888",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "139",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "49217",
+            "peeraddress": "35.186.224.25",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "15312",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "49365",
+            "peeraddress": "104.244.42.72",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "172",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "49435",
+            "peeraddress": "51.5.64.98",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "9892",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "49452",
+            "peeraddress": "93.184.221.240",
+            "peerport": "80",
+            "state": "TIME_WAIT",
+            "pid": "0",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "49454",
+            "peeraddress": "140.82.114.25",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "172",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "49477",
+            "peeraddress": "51.5.64.98",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "12204",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "58888",
+            "peeraddress": "0.0.0.0",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "59594",
+            "peeraddress": "51.89.67.18",
+            "peerport": "6568",
+            "state": "ESTABLISHED",
+            "pid": "3792",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "59748",
+            "peeraddress": "155.133.248.36",
+            "peerport": "27025",
+            "state": "ESTABLISHED",
+            "pid": "12208",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "60162",
+            "peeraddress": "168.61.148.205",
+            "peerport": "9354",
+            "state": "ESTABLISHED",
+            "pid": "4692",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65044",
+            "peeraddress": "40.67.251.132",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "4176",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65047",
+            "peeraddress": "35.190.242.255",
+            "peerport": "4070",
+            "state": "ESTABLISHED",
+            "pid": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65057",
+            "peeraddress": "35.186.224.47",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65058",
+            "peeraddress": "51.4.68.21",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "12204",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65079",
+            "peeraddress": "40.67.251.132",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "4176",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65152",
+            "peeraddress": "64.233.166.188",
+            "peerport": "5228",
+            "state": "ESTABLISHED",
+            "pid": "172",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65236",
+            "peeraddress": "51.4.65.2",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "9892",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65402",
+            "peeraddress": "51.4.65.2",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "9892",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "192.168.2.13",
+            "localport": "65409",
+            "peeraddress": "51.4.65.2",
+            "peerport": "443",
+            "state": "ESTABLISHED",
+            "pid": "12204",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "135",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "984",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "445",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "3000",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "20852",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "5357",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "4",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49414",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49483",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49487",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3080",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49664",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "900",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49665",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "816",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49666",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "1496",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49667",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "1740",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49669",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "2684",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49670",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "3532",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::]",
+            "localport": "49700",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "892",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::1]",
+            "localport": "3000",
+            "peeraddress": "[::1]",
+            "peerport": "49471",
+            "state": "TIME_WAIT",
+            "pid": "0",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::1]",
+            "localport": "3000",
+            "peeraddress": "[::1]",
+            "peerport": "49490",
+            "state": "ESTABLISHED",
+            "pid": "20852",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[::1]",
+            "localport": "49490",
+            "peeraddress": "[::1]",
+            "peerport": "3000",
+            "state": "ESTABLISHED",
+            "pid": "172",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[2003:e1:709:6cb0:d8c:d21:cd77:7015]",
+            "localport": "58888",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[2003:e1:709:6cb0:d07f:6214:3970:de8]",
+            "localport": "58888",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[fe80::ad12:b28a:aa9c:68e3%10]",
+            "localport": "58888",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[fe80::d07f:6214:3970:de8%13]",
+            "localport": "58888",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "tcp",
+            "localaddress": "[fe80::dde3:fad2:c71d:ceff%15]",
+            "localport": "58888",
+            "peeraddress": "[::]",
+            "peerport": "0",
+            "state": "LISTEN",
+            "pid": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "500",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4120",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4632",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5944",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4632",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5944",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "4500",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4120",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5050",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "7428",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "2156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "5355",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "2156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "27036",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "12208",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "50001",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "3792",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "50775",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "20252",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "52429",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "12208",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "54915",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "11316",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "56494",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5944",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "56499",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4264",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "57621",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "58888",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "21148",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "62662",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4336",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "0.0.0.0",
+            "localport": "63636",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4632",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "10.107.224.65",
+            "localport": "137",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "10.107.224.65",
+            "localport": "138",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "10.107.224.65",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "10.107.224.65",
+            "localport": "58647",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "127.0.0.1",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "127.0.0.1",
+            "localport": "58650",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "127.0.0.1",
+            "localport": "59598",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "3560",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "172.17.64.1",
+            "localport": "137",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "172.17.64.1",
+            "localport": "138",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "172.17.64.1",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "172.17.64.1",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4336",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "172.17.64.1",
+            "localport": "58648",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "192.168.2.13",
+            "localport": "137",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "192.168.2.13",
+            "localport": "138",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "192.168.2.13",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "192.168.2.13",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4336",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "192.168.2.13",
+            "localport": "58649",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "500",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4120",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4632",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5944",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4632",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "3702",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5944",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "4500",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4120",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "14732",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "17752",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "2156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "5355",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "2156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "54915",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "11316",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "56495",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5944",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "62663",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4336",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::]",
+            "localport": "63637",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4632",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::1]",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::1]",
+            "localport": "5353",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "4336",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[::1]",
+            "localport": "58646",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[fe80::ad12:b28a:aa9c:68e3%10]",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[fe80::ad12:b28a:aa9c:68e3%10]",
+            "localport": "58644",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[fe80::d07f:6214:3970:de8%13]",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[fe80::d07f:6214:3970:de8%13]",
+            "localport": "58645",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[fe80::dde3:fad2:c71d:ceff%15]",
+            "localport": "1900",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        },
+        {
+            "protocol": "udp",
+            "localaddress": "[fe80::dde3:fad2:c71d:ceff%15]",
+            "localport": "58643",
+            "peeraddress": "*",
+            "peerport": "*",
+            "state": "5156",
+            "process": ""
+        }
+    ],
+    "inetLatency": 11,
+    "wifiNetworks": [],
+    "temp": {
+        "main": -1,
+        "cores": [],
+        "max": -1
+    },
+    "battery": {
+        "hasbattery": false,
+        "cyclecount": 0,
+        "ischarging": false,
+        "designedcapacity": 0,
+        "maxcapacity": 0,
+        "currentcapacity": 0,
+        "voltage": 0,
+        "capacityUnit": "",
+        "percent": 0,
+        "timeremaining": -1,
+        "acconnected": true,
+        "type": "",
+        "model": "",
+        "manufacturer": "",
+        "serial": ""
+    },
+    "mem": {
+        "total": 34309718016,
+        "free": 22478462976,
+        "used": 11831255040,
+        "active": 11831255040,
+        "available": 22478462976,
+        "buffers": 0,
+        "cached": 0,
+        "slab": 0,
+        "buffcache": 0,
+        "swaptotal": 5637144576,
+        "swapused": 0,
+        "swapfree": 5637144576
+    },
+    "fsSize": [
+        {
+            "fs": "C:",
+            "type": "NTFS",
+            "size": 999526756352,
+            "used": 653381677056,
+            "use": 65.3691032184736,
+            "mount": "C:"
+        },
+        {
+            "fs": "D:",
+            "type": "NTFS",
+            "size": 1000203087872,
+            "used": 982868537344,
+            "use": 98.2668969194166,
+            "mount": "D:"
+        },
+        {
+            "fs": "E:",
+            "type": "NTFS",
+            "size": 1000203087872,
+            "used": 890217840640,
+            "use": 89.0037084902426,
+            "mount": "E:"
+        },
+        {
+            "fs": "G:",
+            "type": "NTFS",
+            "size": 120031539200,
+            "used": 101277696,
+            "use": 0.08437590376246712,
+            "mount": "G:"
+        }
+    ],
+    "users": [
+        {
+            "user": "tobia",
+            "tty": "console",
+            "date": "2020-11-08",
+            "time": "13:31",
+            "ip": "",
+            "command": ""
+        }
+    ],
+    "networkStats": [
+        {
+            "iface": "Ethernet",
+            "operstate": "up",
+            "rx_bytes": 1876795673,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "tx_bytes": 515671650,
+            "tx_dropped": 0,
+            "tx_errors": 3,
+            "rx_sec": -1,
+            "tx_sec": -1,
+            "ms": 0
+        }
+    ]
+}
