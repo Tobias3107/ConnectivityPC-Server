@@ -13,6 +13,8 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
+    "os": "^0.1.1",
+    "os-utils": "0.0.14",
     "systeminformation": "^4.29.3"
   }
 }
