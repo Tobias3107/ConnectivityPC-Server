@@ -34,8 +34,8 @@ function cpuAverage() {
 }
 
 function getCoreTempData(callback) {
-  fs.readFile('C:\\Program Files\\Core Temp\\Plugins\\localdata.json', 'utf8', (err, data) => {
-    if(typeof err == undefined) {
+ /* fs.readFile('C:\\Program Files\\Core Temp\\Plugins\\localData.json', 'utf8', (err, data) => {
+    if(err == null || typeof err == undefined) {
       data = JSON.parse(data);
       // Clear up Array - From 255( or Something) to CPU Cores
       data.uiLoad = data.uiLoad.slice(0, data.uiCoreCnt); 
@@ -45,9 +45,24 @@ function getCoreTempData(callback) {
       return;
     } else {
       callback({errno: 500, message: "an Error occured on opening File. Make sure u have Core Temp and the Plugin installed."});
+      console.log(err);
       return;
     }
-  });
+  });*/
+  var data = fs.readFileSync('C:\\Program Files\\Core Temp\\Plugins\\localData.json', 'utf8');
+  if(data != null) {
+    data = JSON.parse(data);
+    // Clear up Array - From 255( or Something) to CPU Cores
+    data.uiLoad = data.uiLoad.slice(0, data.uiCoreCnt); 
+    data.uiTjMax = data.uiTjMax.slice(0, data.uiCoreCnt); // Not Tested. On my Setup there is no Data
+    data.fTemp = data.fTemp.slice(0, data.uiCoreCnt); // Not Tested. On my Setup there is no Data
+    callback(data);
+    return;
+  } else {
+    callback({errno: 500, message: "an Error occured on opening File. Make sure u have Core Temp and the Plugin installed."});
+    console.log(err);
+    return;
+  }   
 }
 /* GET api listing. */
 router.get('/', (req, res, next) => {
@@ -78,10 +93,9 @@ var percentageCPU;
   var idleDifference = endMeasure.idle - startMeasure.idle;
   var totalDifference = endMeasure.total - startMeasure.total;
   percentageCPU = 100 - ~~(100 * idleDifference / totalDifference);
-  console.log(percentageCPU + "% CPU Usage.");
 
   var coreData = { errno: 0 };
-  getCoreTempData((data) => {coreData = data;});
+  getCoreTempData((data) => coreData = data);
   var siTemp = await si.cpuTemperature((data) => {
     return data;
   });
@@ -94,10 +108,12 @@ var percentageCPU;
     return data;
   });*/
 
-  if(typeof coreData.errno !== undefined) {
+  console.log(typeof coreData.errno === undefined);
+  if(typeof coreData.errno === undefined) {
     res.json({"temp": siTemp, "usage": percentageCPU});
   } else {
-    res.json(coreData);
+    res.json({"temp":{"main":0, "cores": coreData.fTemp}, "usage": coreData.uiLoad});
+    
   }
 });
 
