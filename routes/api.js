@@ -86,11 +86,23 @@ var percentageCPU;
     return data;
   });
 
+
+  // Andere Möglichkeit für Usage
+  // this will be used later for Usage
+  /*
+  var siLoad = si.currentLoad(data => {
+    return data;
+  });*/
+
   if(typeof coreData.errno !== undefined) {
     res.json({"temp": siTemp, "usage": percentageCPU});
   } else {
     res.json(coreData);
   }
+});
+
+router.get('/memData', (req, res, next) => {
+  
 });
 
 module.exports = router;
