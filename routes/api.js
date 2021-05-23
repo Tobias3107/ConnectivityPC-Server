@@ -115,11 +115,13 @@ var percentageCPU;
 
   console.log(coreData.errno);
   if(typeof coreData.errno !== undefined) {
-    res.json({"temp": siTemp, "usage": percentageCPU});
-  } else {
-    res.json({"temp":{"main":0, "cores": coreData.fTemp}, "usage": coreData.uiLoad});
+    if(coreData.errno == 500 || coreData.errno == 0) {
+      res.json({"temp": siTemp, "usage": percentageCPU});
+      return;
+    }
     
   }
+  res.json({"temp":{"main":0, "cores": coreData.fTemp}, "usage": coreData.uiLoad});
 });
 
 router.get('/memData', (req, res, next) => {
