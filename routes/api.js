@@ -80,10 +80,13 @@ router.get('/coreTempData', (req, res, next) => {
   })
 });
 
+// ALL -> only usefull for ConnectivityPC
 router.get('/ALL', (req, res, next) => {
-  si.getAllData().then(data => {
-    res.json(data);
-  })
+  valueObject = {
+    fsSize: '*',
+    mem:'*'
+  }
+  si.get(valueObject).then(data => res.json(data));
 });
 
 router.get('/cpuData', async (req, res, next) => {
