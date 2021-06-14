@@ -114,9 +114,7 @@ var percentageCPU;
   /*
   var siLoad = si.currentLoad(data => {
     return data;
-  });*/
-
-  console.log(coreData.errno);
+  });*/ 
   if(typeof coreData.errno !== undefined) {
     if(coreData.errno == 500 || coreData.errno == 0) {
       res.json({"temp": siTemp, "usage": percentageCPU});
